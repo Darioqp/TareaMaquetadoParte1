@@ -22,6 +22,10 @@ header {
     margin: 1em 1em;
     padding: 0.5em 0.5em;
     max-width: 100%;
+    border-radius: 10px;
+    /* border: 2px solid black; */
+    
+
 
 }
 
@@ -32,4 +36,6 @@ header {
 
 header img {
     width: 20em;
+    border-radius: 15px;
+    border: 2px solid black;
 }

@@ -21,7 +21,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(170, 137, 30, 0.315);
+    background-color: rgba(128, 128, 128, 0.685);
     margin: 0 1em 0 1em;
     padding: 0.5em 0.5em;
     max-width: 100%;
@@ -29,9 +29,10 @@ header {
 }
 
 .titulo {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: 'Nunito';
     text-align: center;
+    font-style: italic;
 }
 
 header img {
@@ -41,7 +42,7 @@ header img {
 }
 
 nav {
-    background-color: rgba(93, 54, 3, 0.171);
+    background-color: gray;
     margin-bottom: 1em;
     margin: 0 1em 0 1em;
     border-radius: 0 0 5px 5px;
@@ -65,6 +66,8 @@ nav ul li a {
     color:black;
     text-decoration: none;
     text-align: center;
+    font-size: 1.2em;
+    font-weight: bolder;
     display: block;
     padding: 0.2em 0.4em;
 }
@@ -73,8 +76,12 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.438);
 }
 
+main {
+    max-width: 70%;
+}
+
 footer {
-    background-color: rgba(93, 54, 3, 0.171);
+    background-color:rgba(128, 128, 128, 0.603);
     margin-bottom: 2em;
     margin: 1em;
     border-radius: 5px;

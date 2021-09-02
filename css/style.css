@@ -43,7 +43,6 @@ header img {
 
 nav {
     background-color: gray;
-    margin-bottom: 1em;
     margin: 0 1em 0 1em;
     border-radius: 0 0 5px 5px;
     border: 2px solid black;
@@ -76,13 +75,43 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.438);
 }
 
-main {
-    max-width: 70%;
+.imagen {
+    height: 35em;
+    width: auto;
+}
+
+.seccion {
+    margin: 0 1em 0 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 2fr;
+}
+
+.imagen2 {
+    width: 40em;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.parrafo {
+    justify-content: flex-start;
+
+}
+
+.titulo2 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.texto {
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 footer {
     background-color:rgba(128, 128, 128, 0.603);
-    margin-bottom: 2em;
     margin: 1em;
     border-radius: 5px;
 }

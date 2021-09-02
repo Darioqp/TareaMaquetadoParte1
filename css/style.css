@@ -1,10 +1,13 @@
 /* font-family: 'Nunito', sans-serif; */
+html {
+    font-size: 62.5%;
+}
 
 body {
     overflow: auto;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Nunito', sans-serif;
-    line-height: 20px;
+    line-height: 2rem;
     margin: 0 auto;
     background: #D1913C;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFD194, #D1913C);  /* Chrome 10-25, Safari 5.1-6 */
@@ -23,19 +26,47 @@ header {
     padding: 0.5em 0.5em;
     max-width: 100%;
     border-radius: 10px;
-    /* border: 2px solid black; */
-    
-
-
 }
 
 .titulo {
-    font-size: 2.5em;
+    font-size: 3rem;
     font-family: 'Nunito';
+    text-align: center;
 }
 
 header img {
-    width: 20em;
+    width: 15rem;
     border-radius: 15px;
     border: 2px solid black;
+}
+
+nav {
+    background-color: rgba(93, 54, 3, 0.171);
+    position: relative;
+    margin-bottom: 2em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 16%;
+}
+
+nav ul li a {
+
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 100%;
+    }
 }
